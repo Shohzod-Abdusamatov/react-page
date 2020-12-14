@@ -1,11 +1,10 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { PageTransition } from "@steveeeie/react-page-transition";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import NotFoundPage from "./pages/PageNotFound";
-import Page from "react-page-loading";
 import "./styles.css";
 
 export default function App() {
